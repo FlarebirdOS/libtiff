@@ -1,6 +1,6 @@
 pkgname=libtiff
 pkgver=4.7.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Library for manipulation of TIFF images"
 arch=('x86_64')
 url="http://www.simplesystems.org/libtiff"
@@ -8,7 +8,10 @@ license=('libtiff')
 depends=(
     'gcc-libs'
     'glibc'
+    'jbigkit'
+    'libdeflate'
     'libjpeg-turbo'
+    'libwebp'
     'zlib'
     'xz'
     'zstd'
